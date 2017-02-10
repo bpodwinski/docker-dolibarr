@@ -16,6 +16,7 @@ Dolibarr ERP & CRM is a modern and easy to use software package to manage your b
 - Based on Debian
 - Latest stable versions
 - With Apache2 and PHP5.6
+- DB driver for Mysql and PostgreSQL
 
 ### Ports
 
