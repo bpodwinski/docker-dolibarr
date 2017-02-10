@@ -27,6 +27,8 @@ RUN cd /tmp \
 RUN mkdir /var/www/html/documents \
 	&& chown -hR www-data:www-data /var/www/html
 
+WORKDIR /var/www/html
+
 VOLUME /var/www/html/conf
 VOLUME /var/www/html/documents
 
