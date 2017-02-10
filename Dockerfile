@@ -27,12 +27,11 @@ RUN cd /tmp \
 
 WORKDIR /var/www/html
 
-VOLUME /var/www/html/conf
-VOLUME /var/www/html/documents
-
-RUN mkdir /var/www/html/documents \
-    && chown -hR www-data:www-data /var/www/html
+RUN chown -hR www-data:www-data /var/www/html
 
 USER www-data
+
+VOLUME /var/www/html/conf
+VOLUME /var/www/html/documents
 
 EXPOSE 80
