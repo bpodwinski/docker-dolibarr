@@ -29,9 +29,9 @@ WORKDIR /var/www/html
 
 RUN chown -hR www-data:www-data /var/www/html
 
-USER www-data
-
 VOLUME /var/www/html/conf
 VOLUME /var/www/html/documents
+
+USER www-data
 
 EXPOSE 80
