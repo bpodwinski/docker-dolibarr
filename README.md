@@ -35,7 +35,7 @@ Dolibarr ERP & CRM is a modern and easy to use software package to manage your b
 
 You can attach 2 volumes to your container:
 
-- Configuration folder: `/var/www/html/config`
+- Configuration folder: `/var/www/html/conf`
 - Data folder: `/var/www/html/documents`
 
 Use the flag -v to mount a volume on the host machine like described in [official Docker documentation](https://docs.docker.com/engine/userguide/containers/dockervolumes/).
