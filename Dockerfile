@@ -25,7 +25,8 @@ RUN cd /tmp \
     && rm -R dolibarr-$VERSION \
     && rm dolibarr.tar.gz
 
-RUN chown -R www-data:www-data /var/www/html
+RUN chmod -R 777 /var/www/html/conf /var/www/html/documents \
+    && chown -R www-data:www-data /var/www/html
 
 VOLUME /var/www/html/conf
 VOLUME /var/www/html/documents
