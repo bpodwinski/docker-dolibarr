@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:5.6-alpine
 MAINTAINER Benoit Podwinski
 
 ENV VERSION 4.0.4
