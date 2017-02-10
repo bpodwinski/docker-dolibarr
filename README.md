@@ -1,4 +1,4 @@
-# Supported tags and respective Dockerfile links
+# Supported tags and respective `Dockerfile` links
 
 `4.0.4`, `stable` [*(BenoitPodwinski/docker-dolibarr)*](https://github.com/BenoitPodwinski/docker-dolibarr)<br>
 `3.9.4`, `3.9` [*(BenoitPodwinski/docker-dolibarr/3.9)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.9)<br>
