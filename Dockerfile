@@ -25,12 +25,8 @@ RUN cd /tmp \
     && rm -R dolibarr-$VERSION \
     && rm dolibarr.tar.gz
 
-WORKDIR /var/www/html
+RUN chown -R www-data:www-data /var/www/html
 
-
-VOLUME /var/www/html/conf
-VOLUME /var/www/html/documents
-
-RUN chown -hR www-data:www-data /var/www/html
+VOLUME /var/www/html
 
 EXPOSE 80
