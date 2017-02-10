@@ -13,11 +13,9 @@ RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev libldap2-dev \
 	&& docker-php-ext-configure ldap --with-libdir=lib/x86_64-linux-gnu/ \
         && docker-php-ext-install ldap \
         && docker-php-ext-install mysqli \
-        && apt-get purge -y libpng12-dev libjpeg-dev libldap2-dev \
-        # Environments variable
-        sed -i "s|;*date.timezone =.*|date.timezone = ${PHP_TIMEZONE}|i" /etc/php5/php.ini && \
-        sed -i "s|;*memory_limit =.*|memory_limit = ${PHP_MEMORY_LIMIT}|i" /etc/php5/php.ini && \
-        sed -i "s|;*upload_max_filesize =.*|upload_max_filesize = ${MAX_UPLOAD}|i" /etc/php5/php.ini
+        && apt-get purge -y libpng12-dev libjpeg-dev libldap2-dev
+
+COPY php.ini /usr/local/etc/php/
 
 RUN cd /tmp \
     && curl "https://codeload.github.com/Dolibarr/dolibarr/tar.gz/${VERSION}" -o dolibarr.tar.gz \
@@ -28,8 +26,6 @@ RUN cd /tmp \
 
 RUN mkdir /var/www/html/documents \
 	&& chown -hR www-data:www-data /var/www/html
-
-WORKDIR /var/www/html
 
 VOLUME /var/www/html/conf
 VOLUME /var/www/html/documents
