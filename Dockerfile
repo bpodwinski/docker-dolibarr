@@ -27,6 +27,7 @@ RUN cd /tmp \
 
 RUN chown -R www-data:www-data /var/www/html
 
-VOLUME /var/www/html
+VOLUME /var/www/html/conf
+VOLUME /var/www/html/documents
 
 EXPOSE 80
