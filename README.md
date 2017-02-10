@@ -14,17 +14,27 @@ Dolibarr ERP & CRM is a modern and easy to use software package to manage your b
 ### Features
 
 - Based on Debian
-- Latest stables versions
+- Latest stable versions
 - With Apache2 and PHP5.6
 
 ### Ports
 
 - **80**
 
-### Environment variables
+### Environment
 
 | Variable | Type | Default value |
 | -------- | ---- | ------------- |
 | **PHP_TIMEZONE** | *optional* | UTC
 | **PHP_MEMORY_LIMIT** | *optional* | 256M
 | **MAX_UPLOAD** | *optional* | 128M
+
+
+### Volumes
+
+You can attach 2 volumes to your container:
+
+- Configuration folder: `/var/www/html/config`
+- Data folder: `/var/www/html/documents`
+
+Use the flag -v to mount a volume on the host machine like described in [official Docker documentation](https://docs.docker.com/engine/userguide/containers/dockervolumes/).
