@@ -1,11 +1,11 @@
 # Supported tags and respective Dockerfile links
 
-`4.0.4`, `stable`, [*(BenoitPodwinski/docker-dolibarr)*](https://github.com/BenoitPodwinski/docker-dolibarr)
-`3.9.4`, `3.9` [*(BenoitPodwinski/docker-dolibarr/3.9)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.9)
-`3.8.4`, `3.8` [*(BenoitPodwinski/docker-dolibarr/3.8)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.8)
-`3.7.4`, `3.7` [*(BenoitPodwinski/docker-dolibarr/3.7)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.7)
-`3.6.6`, `3.6` [*(BenoitPodwinski/docker-dolibarr/3.6)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.6)
-`3.5.8`, `3.5` [*(BenoitPodwinski/docker-dolibarr/3.5)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.5)
+`4.0.4`, `stable` [*(BenoitPodwinski/docker-dolibarr)*](https://github.com/BenoitPodwinski/docker-dolibarr)<br>
+`3.9.4`, `3.9` [*(BenoitPodwinski/docker-dolibarr/3.9)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.9)<br>
+`3.8.4`, `3.8` [*(BenoitPodwinski/docker-dolibarr/3.8)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.8)<br>
+`3.7.4`, `3.7` [*(BenoitPodwinski/docker-dolibarr/3.7)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.7)<br>
+`3.6.6`, `3.6` [*(BenoitPodwinski/docker-dolibarr/3.6)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.6)<br>
+`3.5.8`, `3.5` [*(BenoitPodwinski/docker-dolibarr/3.5)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.5)<br>
 
 ### What is this ?
 
