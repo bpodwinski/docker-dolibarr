@@ -25,12 +25,14 @@ RUN cd /tmp \
     && rm -R dolibarr-$VERSION \
     && rm dolibarr.tar.gz
 
-RUN mkdir /var/www/html/documents \
-	&& chown -hR www-data:www-data /var/www/html
-
 WORKDIR /var/www/html
 
 VOLUME /var/www/html/conf
 VOLUME /var/www/html/documents
+
+RUN mkdir /var/www/html/documents \
+    && chown -hR www-data:www-data /var/www/html
+
+USER www-data
 
 EXPOSE 80
