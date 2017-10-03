@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:7.0-apache
 MAINTAINER Benoit Podwinski
 
 ENV VERSION 6.0.1
