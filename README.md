@@ -1,13 +1,12 @@
 # Supported tags and respective `Dockerfile` links
 
-`6.0.1`, `stable`, `latest` [*(BenoitPodwinski/docker-dolibarr)*](https://github.com/BenoitPodwinski/docker-dolibarr)<br>
-`5.0.6`, `5.0` [*(BenoitPodwinski/docker-dolibarr/5.0)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/5.0)<br>
-`4.0.4`, `4.0` [*(BenoitPodwinski/docker-dolibarr/4.0)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/4.0)<br>
-`3.9.4`, `3.9` [*(BenoitPodwinski/docker-dolibarr/3.9)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.9)<br>
-`3.8.4`, `3.8` [*(BenoitPodwinski/docker-dolibarr/3.8)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.8)<br>
-`3.7.4`, `3.7` [*(BenoitPodwinski/docker-dolibarr/3.7)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.7)<br>
-`3.6.6`, `3.6` [*(BenoitPodwinski/docker-dolibarr/3.6)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.6)<br>
-`3.5.8`, `3.5` [*(BenoitPodwinski/docker-dolibarr/3.5)*](https://github.com/BenoitPodwinski/docker-dolibarr/tree/3.5)<br>
+`5.0.6`, `5.0` [*(bpodwinski/docker-dolibarr/5.0)*](https://github.com/bpodwinski/docker-dolibarr/tree/5.0)<br>
+`4.0.4`, `4.0` [*(bpodwinski/docker-dolibarr/4.0)*](https://github.com/bpodwinski/docker-dolibarr/tree/4.0)<br>
+`3.9.4`, `3.9` [*(bpodwinski/docker-dolibarr/3.9)*](https://github.com/bpodwinski/docker-dolibarr/tree/3.9)<br>
+`3.8.4`, `3.8` [*(bpodwinski/docker-dolibarr/3.8)*](https://github.com/bpodwinski/docker-dolibarr/tree/3.8)<br>
+`3.7.4`, `3.7` [*(bpodwinski/docker-dolibarr/3.7)*](https://github.com/bpodwinski/docker-dolibarr/tree/3.7)<br>
+`3.6.6`, `3.6` [*(bpodwinski/docker-dolibarr/3.6)*](https://github.com/bpodwinski/docker-dolibarr/tree/3.6)<br>
+`3.5.8`, `3.5` [*(bpodwinski/docker-dolibarr/3.5)*](https://github.com/bpodwinski/docker-dolibarr/tree/3.5)<br>
 
 ### What is this ?
 
