@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-`6.0.1`, `stable`, `latest` [*(bpodwinski/docker-dolibarr)*](https://github.com/bpodwinski/docker-dolibarr)<br>
+`6.0.2`, `stable`, `latest` [*(bpodwinski/docker-dolibarr)*](https://github.com/bpodwinski/docker-dolibarr)<br>
 `6.0-php7.1` [*(bpodwinski/docker-dolibarr/6.0-php7.1)*](https://github.com/bpodwinski/docker-dolibarr/tree/6.0-php7.1)<br>
 `6.0-php7.0` [*(bpodwinski/docker-dolibarr/6.0-php7.0)*](https://github.com/bpodwinski/docker-dolibarr/tree/6.0-php7.0)<br>
 `5.0.6`, `5.0` [*(bpodwinski/docker-dolibarr/5.0)*](https://github.com/bpodwinski/docker-dolibarr/tree/5.0)<br>
