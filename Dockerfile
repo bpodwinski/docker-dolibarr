@@ -1,10 +1,10 @@
-FROM php:5.6-apache
+FROM php:7.2-apache
 MAINTAINER Benoit Podwinski
 
-ENV VERSION 7.0.2
+ARG VERSION 8.0.2
 ENV PHP_TIMEZONE UTC
-ENV PHP_MEMORY_LIMIT 256M
-ENV MAX_UPLOAD 128M
+ENV PHP_MEMORY_LIMIT 128M
+ENV MAX_UPLOAD 64M
 
 RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev libldap2-dev libpq-dev cron wget curl \
     && rm -rf /var/lib/apt/lists/* \
